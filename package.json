@@ -1,0 +1,28 @@
+{
+  "name": "mypluralize",
+  "version": "1.0.1",
+  "description": "A Node.js module that returns the plural form of any noun",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clmorales/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "Carlos Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clmorales/mypluralize/issues"
+  },
+  "homepage": "https://github.com/clmorales/mypluralize#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/pluralize": "0.0.29",
+    "pluralize": "^8.0.0"
+  }
+}
